@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="reviewtests.reviewtest.ValidReviewTest" skipped="0" tests="1" time="0.0" timestamp="2017-07-27T13:41:08.305+03:00[Europe/Athens]"><testcase classname="reviewtests.reviewtest.ValidReviewTest" name="Initialisation"><error message="java.lang.NullPointerException--&gt;null" type="net.sf.cglib.core.CodeGenerationException">java.lang.NullPointerException--&gt;null</error><system-err>java.lang.NullPointerException--&gt;null&#13;
-</system-err></testcase></testsuite>
