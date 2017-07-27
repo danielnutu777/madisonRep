@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and JUnit</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="18be5888184909d95cafcfef6464cf5daab08cb6f9297b162e1c64383131dce9.html">Invalid Review Test</a>
+                > <a
+                    href="a370206dfa1f7bf9719740810789c1dfea54712c405e66d330d89ff68736d535.html">Submit invalid review </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-07-2017 11:21</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Invalid Review Test</span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Submit Invalid Review
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="a62744aca73bc976b1b5e935897181cc3ad2fc3a3b115c825e3bfb3ac3aeae87.png" title="Go to home page" width="960"/>
+                <img src="ce48f2def8e95d8d85a55f082ab91778e9e62ba3f95832cc472b9923bfbaa8cd.png" title="Go to home page" width="960"/>
+                <img src="68467c89a6c54c4a0e905b1c43dddbfd116f16cbd0936356824cc6afafcfb74d.png" title="Show search results" width="960"/>
+                <img src="e340b5028d016f6f7b3c75fb6f53baeb43241cd63d64ae8f0bd283b3ebb5d71f.png" title="Click on selected product" width="960"/>
+                <img src="2f9cdf4bd28edbac691cf835d16ff39e1dfdc53b3365b94e38247727cc7576c1.png" title="Enter review section" width="960"/>
+                <img src="8fab42543447e553548d8015ca445245e8c1223793c11095fb31b8f4578f943e.png" title="Submit review without rating" width="960"/>
+                <img src="scaled_69f78a56e0b3488b34c501f2ba8e9b3c57ae5c8b0fa216a38c2c1aa8e7744ada.png" title="Assert rating warning msg" width="960"/>
+                <img src="01ac784f68d041948aa00d3c482481194b4f3713fc9f69cd42ddfd322505ced0.png" title="Assert rating warning msg" width="960"/>
+                <img src="scaled_6015a477bcd611841f3c396060116cbe81c989a94aaa51cee47c859a41af058e.png" title="Submit review without thoughts" width="960"/>
+                <img src="scaled_45ebc859a9894b9f8d348bc1ba739df0de6ea12e2a2e09f324476cade765e61c.png" title="Assert thoughts warning msg" width="960"/>
+                <img src="scaled_136ee5076fef1c95848bcba1ae8822bf676fa7ed9f70c2b924592ca23b182461.png" title="Assert thoughts warning msg" width="960"/>
+                <img src="scaled_e0e9736215e33a134ec37308185977be59dbd8acfdf42cb2bfd70797aed3d38b.png" title="Submit review without summary" width="960"/>
+                <img src="scaled_fdf64f8fd5a79ede1981bc3de0aa70b9a583e16c70e828bc2ba0f71a3132db78.png" title="Submit review without summary" width="960"/>
+                <img src="scaled_e2fe372c81b92651c1a4b5a907f189c5f619c3ae573e2adc38a0799c87050f59.png" title="Assert summary warning msg" width="960"/>
+                <img src="scaled_01961fe76ab69cc2384aa971194020b5f1e5ea5aeb96ef218bbc645c763b50de.png" title="Assert summary warning msg" width="960"/>
+                <img src="scaled_94f7210bbfc1fda428ccd5f0ee08819b35f47d0e54ce9f92f9cfb1d1f2365609.png" title="Submit review without nickname" width="960"/>
+                <img src="scaled_d798ac3c66b44f4f90243190ff0d7e8687bd9ca6de5f56f44beea1a208575b98.png" title="Submit review without nickname" width="960"/>
+                <img src="scaled_282179d317f3185fb1af28623d5cf69536a5482581d0738c18bdaa26e4279df3.png" title="Assert nickname warning msg" width="960"/>
+                <img src="scaled_5c9d47092ee946bb10271150c1d50e456d04d06601058dc08225ee7c3f1f7448.png" title="Assert nickname warning msg: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.5.1</span>
+</div>
+</body>
+</html>
