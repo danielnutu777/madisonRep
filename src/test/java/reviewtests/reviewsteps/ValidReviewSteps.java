@@ -5,52 +5,52 @@ import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
 import reviewtests.reviewpage.*;
 
-public class ValidReviewSteps extends ScenarioSteps {
-    HomePage homePage;
-    SearchResultPage searchResultPage;
-    ProductDetailsPage productDetailsPage;
-    ReviewPage reviewPage;
-    MagentoHomePage magentoHomePage;
-    MagentoManageProductsPage magentoManageProductsPage;
+import java.awt.*;
 
-    public String title;
+public class ValidReviewSteps extends ScenarioSteps {
+    private HomePage homePage;
+    private SearchResultPage searchResultPage;
+    private ProductDetailsPage productDetailsPage;
+    private ReviewPage reviewPage;
+    private MagentoHomePage magentoHomePage;
+    private MagentoManageProductsPage magentoManageProductsPage;
+    private MagentoEditPage magentoEditPage;
+
+    private String title;
+    private String url;
 
     @Step
     public void goToHomePage() {
         homePage.open();
     }
-
     @Step
     public void showSearchResults() {
         homePage.enterProductAndClick("shirt");
     }
-
     @Step
     public void clickOnSelectedProduct() {
         searchResultPage.selectRandomProduct();
     }
-
     @Step
     public void enterReviewSection() {
         productDetailsPage.clickOnReviews();
         title = productDetailsPage.getProductName();
+        url = productDetailsPage.getLink();
     }
-
     @Step
     public void checkReviewRadioButtonsAndEnterText() {
-        reviewPage.addReviewStars("sdasd", "asdasd", "asdasdasd");
+        reviewPage.addReviewStars("test", "test", "test");
     }
-
     @Step
     public void assertReviewMsg() {
         reviewPage.compareConfirmationMsgs();
     }
 
+
     @Step
     public void openMagento(){
         magentoHomePage.openMagentoLogin();
     }
-
     @Step
     public void loginMagento(){
         magentoHomePage.login("admin", "parola11");
@@ -60,8 +60,16 @@ public class ValidReviewSteps extends ScenarioSteps {
         magentoHomePage.clickManageProducts();
     }
     @Step
-    public void searchProductName(){
+    public void searchProductName() throws AWTException {
         magentoManageProductsPage.searchProduct(title);
+    }
+    @Step
+    public void displayReviewOnSite(){
+        magentoEditPage.enterReviewTabAndChangeReviewStatus();
+    }
+    @Step
+    public void confirmReviewIsDisplayed(){
+        productDetailsPage.assertReviewMsg(url);
     }
 }
 

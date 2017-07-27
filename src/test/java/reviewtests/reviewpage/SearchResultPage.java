@@ -11,9 +11,9 @@ import java.util.Random;
 public class SearchResultPage extends PageObject{
 
     @FindBy(css = "[id^='product-collection-image-']")
-    List<WebElement> productList;
+    private List<WebElement> productList;
 
-    Random rand = new Random();
+    private Random rand = new Random();
     public void selectRandomProduct() {
         int productNumber = rand.nextInt(productList.size());
         productList.get(productNumber).click();

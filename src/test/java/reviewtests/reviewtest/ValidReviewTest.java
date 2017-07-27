@@ -9,13 +9,15 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import reviewtests.reviewsteps.ValidReviewSteps;
 
+import java.awt.*;
+
 @RunWith(SerenityRunner.class)
 public class ValidReviewTest {
     @Managed(uniqueSession = true)
-    public WebDriver driver;
+    private WebDriver driver;
 
     @Steps
-    ValidReviewSteps validReviewSteps;
+    private ValidReviewSteps validReviewSteps;
 
     @Before
     public void maximizeWindow(){
@@ -23,7 +25,7 @@ public class ValidReviewTest {
     }
 
     @Test
-    public void submitValidReview(){
+    public void submitValidReview() throws AWTException {
         validReviewSteps.goToHomePage();
         validReviewSteps.showSearchResults();
         validReviewSteps.clickOnSelectedProduct();
@@ -35,5 +37,7 @@ public class ValidReviewTest {
         validReviewSteps.loginMagento();
         validReviewSteps.enterManageProducts();
         validReviewSteps.searchProductName();
+        validReviewSteps.displayReviewOnSite();
+        validReviewSteps.confirmReviewIsDisplayed();
     }
 }

@@ -12,31 +12,31 @@ import java.util.Random;
 @DefaultUrl("http://qa3.madison.com/")
 public class ReviewPage extends PageObject{
     @FindBy(css = ".first.odd .value")
-    List<WebElement> qualityRating;
+    private List<WebElement> qualityRating;
     @FindBy(css = "tr[class = even] .value")
-    List<WebElement> priceRating;
+    private List<WebElement> priceRating;
     @FindBy(css = ".last.odd .value")
-    List<WebElement> valueRating;
+    private List<WebElement> valueRating;
     @FindBy(css = "#review_field")
-    WebElement field1;
+    private WebElement field1;
     @FindBy(css = "#summary_field")
-    WebElement field2;
+    private WebElement field2;
     @FindBy(css = "#nickname_field")
-    WebElement field3;
+    private WebElement field3;
     @FindBy(css = ".buttons-set [type=submit]")
-    WebElement submitBtn;
+    private WebElement submitBtn;
     @FindBy(css = ".messages")
-    WebElement confirmationMsg;
+    private WebElement confirmationMsg;
     @FindBy(css = "#advice-validate-rating-validate_rating")
-    WebElement ratingError;
+    private WebElement ratingError;
     @FindBy(css = "#advice-required-entry-review_field")
-    WebElement thoughtsError;
+    private WebElement thoughtsError;
     @FindBy(css = "#advice-required-entry-summary_field")
-    WebElement summaryError;
+    private WebElement summaryError;
     @FindBy(css = "#advice-required-entry-nickname_field")
-    WebElement nicknameError;
+    private WebElement nicknameError;
 
-    Random rand = new Random();
+    private Random rand = new Random();
     public void addReviewStars(String s1, String s2, String s3) {
         qualityRating.get(rand.nextInt(qualityRating.size())).click();
         priceRating.get(rand.nextInt(priceRating.size())).click();
@@ -110,7 +110,7 @@ public class ReviewPage extends PageObject{
         Assert.assertEquals(s, "THIS IS A REQUIRED FIELD.");
     }
 
-    public void selectRating() {
+    private void selectRating() {
         waitFor(qualityRating.get(0));
         qualityRating.get(rand.nextInt(qualityRating.size())).click();
         priceRating.get(rand.nextInt(priceRating.size())).click();

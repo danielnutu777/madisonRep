@@ -30,7 +30,7 @@ public class InvalidReviewSteps {
     }
     @Step
     public void submitReviewWithoutRating(){
-        reviewPage.enterTextInFields("sdasd", "asdasd", "asdasdasd");
+        reviewPage.enterTextInFields("test", "test", "test");
     }
     @Step
     public void assertRatingWarningMsg(){
@@ -38,7 +38,7 @@ public class InvalidReviewSteps {
     }
     @Step
     public void submitReviewWithoutThoughts(){
-        reviewPage.addRatingAndEnterTextInTwoFields("sdasdsd", "dadsdsfg");
+        reviewPage.addRatingAndEnterTextInTwoFields("test", "test");
     }
     @Step
     public void assertThoughtsWarningMsg(){
@@ -46,7 +46,7 @@ public class InvalidReviewSteps {
     }
     @Step
     public void submitReviewWithoutSummary(){
-        reviewPage.addRatingAndEnterTextInOtherTwoFields("dfdsf", "dsdasad");
+        reviewPage.addRatingAndEnterTextInOtherTwoFields("test", "test");
     }
     @Step
     public void assertSummaryWarningMsg(){
@@ -54,7 +54,7 @@ public class InvalidReviewSteps {
     }
     @Step
     public void submitReviewWithoutNickname(){
-        reviewPage.addRatingAndLastTwoFields("sdfsdfsd", "dsasdgdf");
+        reviewPage.addRatingAndLastTwoFields("test", "test");
     }
     @Step
     public void assertNicknameWarningMsg(){

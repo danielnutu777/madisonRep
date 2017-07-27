@@ -9,17 +9,17 @@ import org.openqa.selenium.interactions.Actions;
 @DefaultUrl("http://qa3.madison.com/index.php/admin/index/index/key/b9ed11cbb3674abe7a30dff5ab0cf2ac/")
 public class MagentoHomePage extends PageObject{
     @FindBy(css = "#username")
-    WebElement username;
+    private WebElement username;
     @FindBy(css = "#login")
-    WebElement password;
+    private WebElement password;
     @FindBy(css = ".form-button")
-    WebElement loginBtn;
+    private WebElement loginBtn;
     @FindBy(css = "[title=close]")
-    WebElement closeBtn;
+    private WebElement closeBtn;
     @FindBy(css = "#nav > li:nth-child(3)")
-    WebElement catalogBtn;
+    private WebElement catalogBtn;
     @FindBy(css = "#nav > li:nth-child(3) > ul > li:nth-child(1) > a > span")
-    WebElement manageProductsBtn;
+    private WebElement manageProductsBtn;
 
     public void openMagentoLogin(){
         getDriver().get("http://qa3.madison.com/index.php/admin/index/index/key/b9ed11cbb3674abe7a30dff5ab0cf2ac/");

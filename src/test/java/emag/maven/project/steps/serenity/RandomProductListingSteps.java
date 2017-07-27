@@ -1,29 +1,34 @@
 package emag.maven.project.steps.serenity;
 
-import emag.maven.project.pages.RandomProductListingPage;
+import emag.maven.project.pages.EmagHomePage;
+import emag.maven.project.pages.ProductDetailsPage;
+import emag.maven.project.pages.ProductListingPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
 
 public class RandomProductListingSteps extends ScenarioSteps{
-    RandomProductListingPage randomProductListingPage;
+    private EmagHomePage emagHomePage;
+    private ProductListingPage productListingPage;
+    private ProductDetailsPage productDetailsPage;
+
     @Step
     public void openHomePage(){
-        randomProductListingPage.open();
+        emagHomePage.open();
     }
     @Step
     public void listProducts(){
-        randomProductListingPage.searchProducts("iphone 7");
+        emagHomePage.searchProducts("laptop");
     }
     @Step
     public void goToRandomPage(){
-        randomProductListingPage.getRandomPage();
+        productListingPage.getRandomPage();
     }
     @Step
     public void goToRandomProduct(){
-        randomProductListingPage.getRandomProduct();
+        productListingPage.getRandomProduct();
     }
     @Step
     public void addToCartAndAssert(){
-        randomProductListingPage.addToCart();
+        productDetailsPage.addToCart();
     }
 }
