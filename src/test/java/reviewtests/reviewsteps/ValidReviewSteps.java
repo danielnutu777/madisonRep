@@ -69,7 +69,7 @@ public class ValidReviewSteps extends ScenarioSteps {
     public void deleteReview(){
         magentoReviewPage.getMagentoReviewPage();
         magentoReviewPage.enterReviewSection();
-        magentoReviewPage.deleteReview();
+        magentoEditPage.deleteReview();
     }
     @Step
     public void assertDeletedReview(){

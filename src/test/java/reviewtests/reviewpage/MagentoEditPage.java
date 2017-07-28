@@ -15,10 +15,18 @@ public class MagentoEditPage extends PageObject {
     private WebElement changeStatus;
     @FindBy(xpath = "//*[@id=\"save_button\"]/span/span/span")
     private WebElement save;
+    @FindBy(css = "#reviwGrid_table > tbody > tr:nth-child(1) > td:nth-child(3)")
+    private WebElement editProductBtn;
 
     public void enterReviewTabAndChangeReviewStatus() {
         clickOn(latestProductReview);
         selectFromDropdown(changeStatus, "Approved");
+        clickOn(save);
+    }
+    public void deleteReview() {
+        waitABit(3000);
+        clickOn(editProductBtn);
+        selectFromDropdown(changeStatus, "Not Approved");
         clickOn(save);
     }
 }

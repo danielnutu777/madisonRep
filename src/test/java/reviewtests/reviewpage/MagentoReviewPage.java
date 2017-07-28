@@ -9,8 +9,6 @@ import org.openqa.selenium.interactions.Actions;
 
 @DefaultUrl("http://qa3.madison.com/")
 public class MagentoReviewPage extends PageObject {
-    @FindBy(css = "#reviwGrid_table > tbody > tr:nth-child(1) > td:nth-child(3)")
-    private WebElement editProductBtn;
     @FindBy(id = "product_info_tabs_reviews")
     private WebElement selectReviewTab;
     @FindBy(xpath = "//*[@id=\"reviwGrid_table\"]/tbody/tr[1]/td[3]")
@@ -44,17 +42,16 @@ public class MagentoReviewPage extends PageObject {
         builder.moveToElement(allReviewsBtn).build().perform();
         clickOn(allReviewsBtn);
     }
-    public void deleteReview() {
-        waitABit(3000);
-        clickOn(editProductBtn);
-        selectFromDropdown(changeStatus, "Not Approved");
-        clickOn(save);
-    }
+
     public void assertReviewMsgIsDeleted(String d) {
         getDriver().get(d);
-        String s = assertReview.getText();
-        Assert.assertNotEquals(s, "TEST");
-        System.out.println("Review successfully removed.");
+        try{
+            String s = assertReview.getText();
+            Assert.assertNotEquals(s, "TEST");
+            System.out.println("Review successfully removed.");
+        }catch(Exception e){
+            System.out.println("Review succesfully removed.");
+        }
     }
 }
 

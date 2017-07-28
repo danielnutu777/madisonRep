@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="489b0ee4-3278-4501-8ee0-6dcf3ec6b592" name="Default" comment="updated reviewtest">
+    <list default="true" id="489b0ee4-3278-4501-8ee0-6dcf3ec6b592" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/HomePage.java" afterPath="$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/HomePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/MagentoEditPage.java" afterPath="$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/MagentoEditPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/MagentoReviewPage.java" afterPath="$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/MagentoReviewPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/reviewtests/reviewsteps/ValidReviewSteps.java" afterPath="$PROJECT_DIR$/src/test/java/reviewtests/reviewsteps/ValidReviewSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/reviewtests/reviewtest/ValidReviewTest.java" afterPath="$PROJECT_DIR$/src/test/java/reviewtests/reviewtest/ValidReviewTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvalidReviewTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InvalidReviewTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/reviewtests/reviewtest/InvalidReviewTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -42,6 +41,50 @@
                 <element signature="e#579#580#0" expanded="true" />
                 <element signature="e#630#631#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MagentoEditPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/MagentoEditPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MagentoReviewPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/MagentoReviewPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidReviewSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/reviewtests/reviewsteps/ValidReviewSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidReviewTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/reviewtests/reviewtest/ValidReviewTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,14 +119,14 @@
         <option value="$PROJECT_DIR$/src/test/java/emag/maven/project/pages/ProductListingPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/reviewtests/reviewsteps/InvalidReviewSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/AllReviewPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/MagentoEditPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/MagentoHomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/MagentoManageProductsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/reviewtests/reviewtest/ValidReviewTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/MagentoReviewPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/reviewtests/reviewsteps/ValidReviewSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/ReviewPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/MagentoEditPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/reviewtests/reviewsteps/ValidReviewSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/MagentoReviewPage.java" />
       </list>
     </option>
   </component>
@@ -270,7 +313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InvalidReviewTest.submitInvalidReview">
+  <component name="RunManager" selected="JUnit.ValidReviewTest.submitValidReview">
     <configuration default="false" name="ValidReviewTest.submitValidReview" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -614,8 +657,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.InvalidReviewTest.submitInvalidReview" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ValidReviewTest.submitValidReview" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ValidReviewTest.submitValidReview" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.InvalidReviewTest.submitInvalidReview" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.InvalidReviewTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.ValidReviewTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.RandomProductListingTest" />
@@ -661,21 +704,19 @@
       <option name="project" value="LOCAL" />
       <updated>1501229173187</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated reviewtest">
+      <created>1501230385781</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1501230385781</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="InvalidReviewTest_submitInvalidReview - 2017.07.28 at 11h 25m 40s.xml">
       <configuration name="InvalidReviewTest.submitInvalidReview" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ValidReviewTest_submitValidReview - 2017.07.28 at 10h 47m 37s.xml">
-      <configuration name="ValidReviewTest.submitValidReview" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ValidReviewTest_submitValidReview - 2017.07.28 at 10h 49m 29s.xml">
-      <configuration name="ValidReviewTest.submitValidReview" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ValidReviewTest_submitValidReview - 2017.07.28 at 10h 59m 22s.xml">
-      <configuration name="ValidReviewTest.submitValidReview" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ValidReviewTest_submitValidReview - 2017.07.28 at 11h 00m 24s.xml">
       <configuration name="ValidReviewTest.submitValidReview" configurationId="JUnit" />
@@ -695,21 +736,31 @@
     <history-entry file="ValidReviewTest_submitValidReview - 2017.07.28 at 11h 23m 58s.xml">
       <configuration name="ValidReviewTest.submitValidReview" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ValidReviewTest_submitValidReview - 2017.07.28 at 11h 30m 15s.xml">
+      <configuration name="ValidReviewTest.submitValidReview" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidReviewTest_submitValidReview - 2017.07.28 at 11h 32m 38s.xml">
+      <configuration name="ValidReviewTest.submitValidReview" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidReviewTest_submitValidReview - 2017.07.28 at 11h 33m 45s.xml">
+      <configuration name="ValidReviewTest.submitValidReview" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -932,50 +983,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/MagentoReviewPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/MagentoHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/MagentoEditPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="55" lean-forward="false" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/reviewtests/reviewtest/ValidReviewTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="41" column="47" lean-forward="false" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/reviewtests/reviewsteps/ValidReviewSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-          <folding>
-            <element signature="e#1979#1980#0" expanded="true" />
-            <element signature="e#2042#2043#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1026,6 +1038,42 @@
           <folding>
             <element signature="e#579#580#0" expanded="true" />
             <element signature="e#630#631#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/MagentoEditPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/reviewtests/reviewsteps/ValidReviewSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/reviewtests/reviewtest/ValidReviewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/reviewtests/reviewpage/MagentoReviewPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
