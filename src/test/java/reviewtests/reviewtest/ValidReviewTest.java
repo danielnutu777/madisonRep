@@ -36,8 +36,8 @@ public class ValidReviewTest {
         validReviewSteps.openMagento();
         validReviewSteps.loginMagento();
         validReviewSteps.enterManageProducts();
-        validReviewSteps.searchProductName();
         validReviewSteps.displayReviewOnSite();
         validReviewSteps.confirmReviewIsDisplayed();
+        validReviewSteps.deleteReview();
     }
 }

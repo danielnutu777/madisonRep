@@ -17,7 +17,6 @@ public class MagentoEditPage extends PageObject {
     private WebElement save;
 
     public void enterReviewTabAndChangeReviewStatus() {
-        clickOn(selectReviewTab);
         clickOn(latestProductReview);
         selectFromDropdown(changeStatus, "Approved");
         clickOn(save);

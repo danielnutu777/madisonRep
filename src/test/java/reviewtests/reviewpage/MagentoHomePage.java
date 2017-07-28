@@ -30,9 +30,4 @@ public class MagentoHomePage extends PageObject{
         clickOn(loginBtn);
         clickOn(closeBtn);
     }
-    public void clickManageProducts(){
-        Actions builder = new Actions(getDriver());
-        builder.moveToElement(catalogBtn).build().perform();
-        clickOn(manageProductsBtn);
-    }
 }

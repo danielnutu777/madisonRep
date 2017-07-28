@@ -13,8 +13,8 @@ public class ValidReviewSteps extends ScenarioSteps {
     private ProductDetailsPage productDetailsPage;
     private ReviewPage reviewPage;
     private MagentoHomePage magentoHomePage;
-    private MagentoManageProductsPage magentoManageProductsPage;
     private MagentoEditPage magentoEditPage;
+    private MagentoReviewPage magentoReviewPage;
 
     private String title;
     private String url;
@@ -57,11 +57,7 @@ public class ValidReviewSteps extends ScenarioSteps {
     }
     @Step
     public void enterManageProducts(){
-        magentoHomePage.clickManageProducts();
-    }
-    @Step
-    public void searchProductName() throws AWTException {
-        magentoManageProductsPage.searchProduct(title);
+        magentoReviewPage.enterReviewSection();
     }
     @Step
     public void displayReviewOnSite(){
@@ -70,6 +66,12 @@ public class ValidReviewSteps extends ScenarioSteps {
     @Step
     public void confirmReviewIsDisplayed(){
         productDetailsPage.assertReviewMsg(url);
+    }
+    @Step
+    public void deleteReview(){
+        magentoReviewPage.getMagentoReviewPage();
+        magentoReviewPage.enterReviewSection();
+        magentoReviewPage.deleteReview();
     }
 }
 
