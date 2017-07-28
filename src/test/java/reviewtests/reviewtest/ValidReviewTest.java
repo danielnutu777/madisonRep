@@ -39,5 +39,6 @@ public class ValidReviewTest {
         validReviewSteps.displayReviewOnSite();
         validReviewSteps.confirmReviewIsDisplayed();
         validReviewSteps.deleteReview();
+        validReviewSteps.assertDeletedReview();
     }
 }

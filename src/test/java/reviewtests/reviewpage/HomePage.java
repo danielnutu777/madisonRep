@@ -12,7 +12,6 @@ public class HomePage extends PageObject {
     @FindBy(className = "search-button")
     private WebElement searchBtn;
 
-
     public void enterProductAndClick(String product) {
         typeInto(searchBar, product);
         clickOn(searchBtn);

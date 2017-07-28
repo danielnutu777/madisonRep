@@ -3,6 +3,7 @@ package reviewtests.reviewpage;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
@@ -28,14 +29,12 @@ public class MagentoReviewPage extends PageObject {
     private WebElement pendingReviewsBtn;
     @FindBy(xpath = "//*[@id=\"nav\"]/li[3]/ul/li[6]/ul/li[1]/ul/li[2]/a/span")
     private WebElement allReviewsBtn;
-
-    MagentoHomePage magentoHomePage;
-
+    @FindBy(css = "#customer-reviews > dl > dt:nth-child(1) > a")
+    private WebElement assertReview;
 
     public void getMagentoReviewPage() {
         getDriver().get("http://qa3.madison.com/index.php/admin/index/index/key/e648485994b064ccc6db26c47feeed0a/");
     }
-
     public void enterReviewSection() {
         Actions builder = new Actions(getDriver());
         builder.moveToElement(catalogBtn).build().perform();
@@ -50,6 +49,12 @@ public class MagentoReviewPage extends PageObject {
         clickOn(editProductBtn);
         selectFromDropdown(changeStatus, "Not Approved");
         clickOn(save);
+    }
+    public void assertReviewMsgIsDeleted(String d) {
+        getDriver().get(d);
+        String s = assertReview.getText();
+        Assert.assertNotEquals(s, "TEST");
+        System.out.println("Review successfully removed.");
     }
 }
 

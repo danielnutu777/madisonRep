@@ -16,7 +16,6 @@ public class ValidReviewSteps extends ScenarioSteps {
     private MagentoEditPage magentoEditPage;
     private MagentoReviewPage magentoReviewPage;
 
-    private String title;
     private String url;
 
     @Step
@@ -34,7 +33,6 @@ public class ValidReviewSteps extends ScenarioSteps {
     @Step
     public void enterReviewSection() {
         productDetailsPage.clickOnReviews();
-        title = productDetailsPage.getProductName();
         url = productDetailsPage.getLink();
     }
     @Step
@@ -72,6 +70,10 @@ public class ValidReviewSteps extends ScenarioSteps {
         magentoReviewPage.getMagentoReviewPage();
         magentoReviewPage.enterReviewSection();
         magentoReviewPage.deleteReview();
+    }
+    @Step
+    public void assertDeletedReview(){
+        magentoReviewPage.assertReviewMsgIsDeleted(url);
     }
 }
 
